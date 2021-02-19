@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6010062559595105194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6010062559595105195}
+  - component: {fileID: 6010062559595105185}
+  - component: {fileID: 6010062559595105184}
+  - component: {fileID: 6010062559595105190}
+  - component: {fileID: 6010062559595105189}
+  - component: {fileID: 6010062559595105188}
+  m_Layer: 10
+  m_Name: raqueteNova 1
+  m_TagString: Raquete
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6010062559595105195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  m_LocalRotation: {x: 0.5676872, y: 0.5676875, z: -0.42158186, w: 0.42158142}
+  m_LocalPosition: {x: -2.6049874, y: 1.0117857, z: 0.4870203}
+  m_LocalScale: {x: 15.000019, y: 15.000017, z: 15.000025}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 73.19701, y: 179.99998, z: 90.00001}
+--- !u!33 &6010062559595105185
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  m_Mesh: {fileID: 4300000, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+--- !u!23 &6010062559595105184
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100002, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100004, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100006, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100008, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100000, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100010, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100012, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100014, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100016, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  - {fileID: 2100018, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!54 &6010062559595105190
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 2
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!64 &6010062559595105189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 47f4b7424fa520a42b9b2851e85ab0cd, type: 3}
+--- !u!114 &6010062559595105188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010062559595105194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca1ceedab48d8f419d300efb3bb65ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raquetes: {fileID: 6010062559595105190}
+  ball: {fileID: 0}
+  tRaquetes: {fileID: 6010062559595105195}
+  teste: 5
+  testeB: 1

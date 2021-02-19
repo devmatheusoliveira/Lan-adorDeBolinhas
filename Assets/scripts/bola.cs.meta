@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f276b287c0d9d29459c47121a2e72f1c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - raquetes: {fileID: 2738636548904410760, guid: 5ad9bde20c7afd7448ee33cd352276fa,
+      type: 3}
+  - ball: {fileID: 5342692477472266143, guid: 45d42650e4adafc4ebdaec2113ef3e8b, type: 3}
+  - gball: {fileID: 5342692477472266142, guid: 45d42650e4adafc4ebdaec2113ef3e8b, type: 3}
+  - tRaquetes: {fileID: 6659689031481799700, guid: 5ad9bde20c7afd7448ee33cd352276fa,
+      type: 3}
+  - tBall: {fileID: 5342692477472266139, guid: 45d42650e4adafc4ebdaec2113ef3e8b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
