@@ -146,8 +146,8 @@ namespace SceneExport{
 			//logger.logFormat("Saving to \"{0}\", \"{1}\"", targetPath, heightPath);
 			
 			var terData = curTerrain.terrainData;
-			int hMapW = terData.heightmapWidth;
-			int hMapH = terData.heightmapHeight;				
+			int hMapW = terData.heightmapResolution;
+			int hMapH = terData.heightmapResolution;				
 			var numAlphas = terData.alphamapLayers;
 			//logger.logFormat("w: {0}; h: {1}; alphas: {2}", w, h, numAlphas);			
 			var heightData = terData.GetHeights(0, 0, hMapW, hMapH);

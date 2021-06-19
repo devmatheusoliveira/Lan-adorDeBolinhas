@@ -5,7 +5,7 @@ using UnityEngine;
 public class launcher : MonoBehaviour
 {
     public Transform EixoCentral;
-    public int dir;
+    public int direcao;
     float timer;
     float timer1;
     float timer2;
@@ -18,32 +18,25 @@ public class launcher : MonoBehaviour
     public GameObject ball;
     public GameObject rball;
 
-    public float teste = 5.0f;
+    public float velocidade = 5.0f;
 
     public bool[] trainingMenu = {true, false, false, true};
-    void Start()
-    {
-        
-
-
-    }
+    public treino[] testandoTreino;
 
     void Update()
     {
-        
-        EixoCentral.rotation = Quaternion.Euler(0, StepMotor(dir, delay) - 90, 0);
+        EixoCentral.rotation = Quaternion.Euler(0, StepMotor(direcao, delay) - 90, 0);
         frequency(delay1);
         selectTraining();
-
     }
 
-    int StepMotor(int dir, float delay)
+    int StepMotor(int direcao, float delay)
     {
         if (!(Time.time - timer < delay) )
         {
-            if ((dir<=1) && (dir>=-1))
+            if ((direcao<=1) && (direcao>=-1))
             {
-                passo += dir;
+                passo += direcao;
             }
             timer = Time.time;
         }
@@ -61,11 +54,10 @@ public class launcher : MonoBehaviour
 
     void CreateBall()
     {
-        
         float angulo = EixoCentral.transform.localRotation.y;
         GameObject newBall = (GameObject)Instantiate(ball);
         newBall.transform.position = startPos.transform.position;
-        newBall.GetComponent<Rigidbody>().AddForce(new Vector3(Mathf.Sin(angulo)* -teste*100, 500, Mathf.Cos(angulo) * -teste*100), ForceMode.Impulse);
+        newBall.GetComponent<Rigidbody>().AddForce(new Vector3(Mathf.Sin(angulo)* -velocidade*100, 500, Mathf.Cos(angulo) * -velocidade*100), ForceMode.Impulse);
     }
 
     void selectTraining()
@@ -93,3 +85,5 @@ public class launcher : MonoBehaviour
 
     }
 }
+
+
